@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basic Webpage with Structured Content</title>
+</head>
+<body>
+    <header>
+        <h1>Basic Webpage with Structured Content</h1>
+    </header>
+
+    <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#media">Media</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#contact">Contact Me</a>
+    </nav>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>My name is Juan. I'm a programmer participating in Cognizant Java Full-Stack training.</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <h3>What I like</h3>
+        <ul>
+            <li>I like video games such as: RPGs, Action games, and shooters.</li>
+            <li>I also enjoy tv series, movies, and book about science-fiction and fantasy.</li>
+            <li>I enjoy looking after my cats.</li>
+        </ul>
+
+        <h3>Steps for making a Webpage</h3>
+        <ol>
+            <li>Make a plan the structure and content</li>
+            <li>Write the HTML code</li>
+            <li>Include the media in a folder or through links</li>
+            <li>Add styles with an CSS file</li>
+            <li>Add functionality through JavaScript</li>
+        </ol>
+    </section>
+
+    <section id="media">
+        <h2>Sample Media</h2>
+        <img src="Media/html-sample-image.jpg" alt="An image of HTML5 code." width="400">
+
+        <h3>Sample Video</h3>
+        <video controls width="400">
+            <source src="Media/sample-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <h3>Sample Audio</h3>
+        <audio controls>
+            <source src="Media/sample-audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section id="schedule">
+        <h2>Schedule</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Day</th>
+                <th>Activity</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Java Full-Stack Studying</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Java Full-Stack Studying</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Java Full-Stack Studying</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Call with trainers</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Java Full-Stack Studying</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <p>Contact Reason:</p>
+            <input type="radio" id="contact-work" name="contact-reason" value="work">
+            <label for="contact-work">Work</label><br>
+            <input type="radio" id="contact-other" name="contact-reason" value="other">
+            <label for="contact-other">Other</label><br><br>
+
+            <p>Contact Methods:</p>
+            <input type="checkbox" id="contact-email" name="contact-method" value="email">
+            <label for="contact-email">Email</label><br>
+            <input type="checkbox" id="contact-phone" name="contact-method" value="phone">
+            <label for="contact-phone">Phone</label><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Basic Webpage with Structured Content. All rights reserved.</p>
+    </footer>
+</body>
+</html>
